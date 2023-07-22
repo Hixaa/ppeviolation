@@ -18,7 +18,7 @@ class MainWindow(QMainWindow):
 
         # Adding the image
         image_label = QLabel(self)
-        pixmap = QtGui.QPixmap("hixaa.jpg")  # Replace "your_image_filename.jpg" with your image file's name
+        pixmap = QtGui.QPixmap("hixaa.jpg")  # Replace with your image file's name
         pixmap = pixmap.scaledToHeight(100)  # Set the height of the image as required
         image_label.setPixmap(pixmap)
         layout.addWidget(image_label, alignment=QtCore.Qt.AlignLeft)
